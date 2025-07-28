@@ -1,16 +1,16 @@
 # Projet_serveur_backend
 # Développer l'API REST d'une application de gestion de produit.
 ## Features
-- Get all produits
-- Get a specific produits by ID
-- Add a new produits
-- Update the status of a produits
-- Delete a produits
+- Obtenir tous les produits
+- Obtenir un produit spécifique par son identifiant
+- Ajouter un nouveau produit
+- Mettre à jour le statut d'un produit
+- Supprimer un produit
   ## Tech Stack
 - Node.js
 - Express.js
 ## Getting Started
-
+Salut tous le monde,sur cet projet je met en evidence la realisation d'un API d'une application de gestion des produits alors pour cela rester connecter pour d'autes merveilles.
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/)
