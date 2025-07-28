@@ -74,7 +74,6 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 - **Method**: `POST`:permet d'ajouter un nouvel produit.
 - **URL**: `http://localhost:3000/produit`
-- **Body**: `raw` → `JSON`
 
 ```json
 {
@@ -87,7 +86,6 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 - **Method**: `PATCH`:permet de mettre à jour un produit excepté son status en stock.
 - **URL**: `http://localhost:3000/produits/68837f96884c1a6519dda78d`
-- **Body**: `raw` → `JSON`
 
 ```json
 {
@@ -95,9 +93,16 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 }
 ```
 
+**Sample Response:**
+
+```json
+{
+  "message": "Product successfully modified",
+}
+
 ## Delete a new produits
 
 - **Method**: `DELETE`:permet de supprimer un produit.
 - **URL**: `http://localhost:3000/produits/68837f96884c1a6519dda78d`
-- **Body**: `raw` → `JSON`
+
 
