@@ -70,7 +70,7 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 ---
 
-### Create a new produits
+### Add a new produits
 
 - **Method**: `POST`:permet d'ajouter un nouvel produit.
 - **URL**: `http://localhost:3000/produit`
