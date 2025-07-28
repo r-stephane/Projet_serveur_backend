@@ -1,0 +1,35 @@
+{
+  "name": "projet_serveur",
+  "version": "1.0.0",
+  "description": "mon projet backend avec nodejs et express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-stephane/projet_serveur.git"
+  },
+  "keywords": [
+    "initiation",
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "author": "ribeye stephane mbaimou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-stephane/projet_serveur/issues"
+  },
+  "homepage": "https://github.com/r-stephane/projet_serveur#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
