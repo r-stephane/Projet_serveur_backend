@@ -95,12 +95,6 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 }
 ```
 
-**Sample Response:**
-
-```json
-{
-  "message": "Product successfully modified",
-}
 ## Delete a new produits
 
 - **Method**: `DELETE`:permet de supprimer un produit.
