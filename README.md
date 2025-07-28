@@ -83,14 +83,6 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
   "stockStatus": "en stock"
 }
 ```
-
-**Sample Response:**
-
-```json
-{
-  "message": "Produits added successfully",
-}
-
 ### Update a new produits
 
 - **Method**: `PATCH`:permet de mettre à jour un produit excepté son status en stock.
