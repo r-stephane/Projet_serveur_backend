@@ -101,6 +101,6 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 ```json
 {
-  "message": "Product successfully modified",
+  "message": "product delete successfull",
 }
 
