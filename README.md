@@ -21,7 +21,7 @@
 
     ```bash
     git clone https://github.com/hmoustaphaousmane/sample-backend.git
-    cd todo-app
+    cd produit-app
     ````
 
 2. Install dependencies:
@@ -46,8 +46,7 @@
 
 ## API Reference (Use with Postman)
 
-You can test the API using Postman. Below are example requests you can recreate in Postman.
-
+Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que vous pouvez recréer dans Postman.
 ---
 
 ### Get all produit
@@ -74,7 +73,7 @@ You can test the API using Postman. Below are example requests you can recreate 
 ### Create a new produits
 
 - **Method**: `POST`
-- **URL**: `http://localhost:3000/todo`
+- **URL**: `http://localhost:3000/produit`
 - **Body**: `raw` → `JSON`
 
 ```json
