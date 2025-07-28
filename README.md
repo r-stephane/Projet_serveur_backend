@@ -103,8 +103,15 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 }
 ```
 
-Update a new produits
+**Sample Response:**
+
+```json
+{
+  "message": "Product successfully modified",
+}
+## Delete a new produits
 
 - **Method**: `DELETE`:permet de supprimer un produit.
 - **URL**: `http://localhost:3000/produits/68837f96884c1a6519dda78d`
 - **Body**: `raw` → `JSON`
+
