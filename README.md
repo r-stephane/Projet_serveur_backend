@@ -51,7 +51,7 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 ### Get all produit
 
-- **Method**: `GET`
+- **Method**: `GET`:permet de récuperer la liste de tous les produits.
 - **URL**: `http://localhost:3000/`
 
 **Sample Response:**
@@ -72,7 +72,7 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 
 ### Create a new produits
 
-- **Method**: `POST`
+- **Method**: `POST`:permet d'ajouter un nouvel produit.
 - **URL**: `http://localhost:3000/produit`
 - **Body**: `raw` → `JSON`
 
@@ -90,3 +90,21 @@ Vous pouvez tester l'AP. Vous trouverez ci-dessous des exemples de requêtes que
 {
   "message": "Produits added successfully",
 }
+
+### Update a new produits
+
+- **Method**: `PATCH`:permet de mettre à jour un produit excepté son status en stock.
+- **URL**: `http://localhost:3000/produits/68837f96884c1a6519dda78d`
+- **Body**: `raw` → `JSON`
+
+```json
+{
+  "stockStatus": "pas stock"
+}
+```
+
+Update a new produits
+
+- **Method**: `DELETE`:permet de supprimer un produit.
+- **URL**: `http://localhost:3000/produits/68837f96884c1a6519dda78d`
+- **Body**: `raw` → `JSON`
